@@ -18,6 +18,7 @@ table.insert(function (context) {
 
 // Only return items where the user id matches the current user
 table.read(function (context) {
+  if(!context.user) {context.res.send(404);}
   context.query.where({
     user: context.user.id
   });
