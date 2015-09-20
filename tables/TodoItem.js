@@ -1,6 +1,6 @@
 // TodoItem.js
 var todoTable = require('azure-mobile-apps').table('TodoItem');
-todoTable.auth = true;
+todoTable.authorise = true;
 // Export our table
 module.exports = todoTable;
 //todoTable.columns = {"text":"string", "complete":"boolean"} //Dynamic schema will create these for us. It's on by default.
