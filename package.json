@@ -1,0 +1,22 @@
+{
+  "name": "FindMate",
+  "version": "1.0.0",
+  "description": "FindMate",
+  "main": "server.js",
+  "scripts": {
+    "test": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "FindMate"
+  ],
+  "author": "nirma",
+  "license": "ISC",
+  "dependencies": {
+    "azure-mobile-apps": "git://github.com/azure/azure-mobile-apps-node.git",
+    "express": "^4.13.3"
+  }
+}
